@@ -1,0 +1,32 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noEmit": true,
+    "types": ["jest"],
+    "isolatedModules": false
+  },
+  "files": [
+    "references.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build-es5",
+    "build-es6",
+    "compiled"
+  ]
+}

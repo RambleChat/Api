@@ -1,0 +1,38 @@
+{
+    "extends": [
+        "tslint:latest"
+    ],
+    "defaultSeverity": "warning",
+    "rules": {
+        "max-line-length": [
+            true,
+            180
+        ],
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "arrow-parens": [
+            true,
+            "ban-single-arg-parens"
+        ],
+        "max-classes-per-file": [
+            true,
+            5
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-pascal-case",
+            "allow-leading-underscore"
+        ],
+        "no-implicit-dependencies": [
+            true,
+            "dev",
+            "optional"
+        ],
+        "no-empty-interface": false,
+        "object-literal-sort-keys": false
+    }
+}
